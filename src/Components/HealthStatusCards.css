@@ -1,0 +1,15 @@
+.bg-light {
+  background-color: #f4f8fe !important;
+}
+
+.progress {
+  height: 0.5rem;
+}
+
+.progress-bar {
+  border-radius: 9999px;
+}
+
+.rounded {
+  border-radius: 0.75rem !important;
+}

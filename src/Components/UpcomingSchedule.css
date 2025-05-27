@@ -1,0 +1,30 @@
+.upcoming-container {
+  background-color: #f3f3ff;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+}
+
+.upcoming-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
+.schedule-section {
+  margin-bottom: 1.5rem;
+}
+
+.schedule-day {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #6b7280;
+  margin-bottom: 1.75rem;
+  margin-top: 1.75rem;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}

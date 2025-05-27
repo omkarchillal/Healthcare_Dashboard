@@ -1,0 +1,58 @@
+.appointment-badge {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+}
+
+.bg-indigo-highlight {
+  background-color: #d1d0ff;
+  color: #3735a8;
+  border-radius: 0.5rem;
+}
+
+.bg-indigo-primary {
+  background-color: #3735a8;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.bg-default {
+  color: #4b5563;
+}
+
+.featured-appointments {
+  flex: 0 0 auto;
+}
+
+.featured-card {
+  border: 1px solid #f3f3ff;
+  padding: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.simple-card-icon {
+  font-size: 14px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.calendar-grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.1rem;
+}
+
+.calendar-day-box {
+  background-color: #f3f3ff;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  .featured-card {
+    width: 100%;
+    white-space: normal;
+  }
+}

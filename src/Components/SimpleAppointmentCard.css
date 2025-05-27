@@ -1,0 +1,31 @@
+.simple-card {
+  background-color: #dedeff;
+  border: 1px solid #f3f4f6;
+  padding: 1rem;
+  height: 6rem;
+}
+
+.simple-card-icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+.simple-card-title {
+  font-weight: 500;
+  color: #111827;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.simple-card-time {
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin: 0;
+}
